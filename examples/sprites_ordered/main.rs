@@ -319,7 +319,7 @@ fn load_sprite_sheet(resources: &Resources) -> LoadedSpriteSheet {
         texture_width: sprite_w * 6,
         texture_height: sprite_h * 2,
         columns: 6,
-        rows: None,
+        rows: Some(2),
         sprite_count: None,
         cell_size: None,
         position: None,
